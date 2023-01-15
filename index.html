@@ -1,14 +1,14 @@
 <html>
 <head>
-<title>카카오톡 버튼메시지 전송</title>
+<title>카카오톡 개발자</title>
 <script id="javascript-sdk" src="https://developers.kakao.com/sdk/js/kakao.min.js"></script>
 </head>
 <body>
-<p><strong>아래 카카오톡 아이콘을 눌러 전송.</strong></p>
+<p style="text-align:center;"><strong>아래 카카오톡 로고 클릭 후 전송.</strong></p>
 <a id="kakao-link-btn" href="javascript:sendLink()">
   <img
-    src="https://cdn.discordapp.com/attachments/993125147580059719/1064061996498178058/KakaoTalk_20230115_150104608.jpg"
-  />
+    src="https://developers.kakao.com/assets/img/about/logos/kakaolink/kakaolink_btn_medium.png" 
+  /> 
 </a>
 <script type="text/javascript">
  Kakao.init('a90d8a9003ca0080a82dea79258684aa');
@@ -26,9 +26,9 @@
         },
       },
       social: {
-        likeCount: 21, //99999가 최대입니다
-        commentCount: 14, //99999가 최대입니다
-        sharedCount: 54, //99999가 최대입니다
+        likeCount: 21,
+        commentCount: 14,
+        sharedCount: 54,
       },
       buttons: [
         {
@@ -42,7 +42,5 @@
     })
   }
 </script>
-<!-- www.blackcats4567.com -->
-<!-- 이미지/버튼 클릭 시 주소는 Kakao Developers의 애플리케이션 > 플랫폼 > Web에 넣어야 클릭했을때 성공적으로 표시됩니다 -->
   </body>
 </html>
